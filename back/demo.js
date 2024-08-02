@@ -17,7 +17,7 @@ app.use(cors());
 
 // Initialize Keycloak Admin Client
 const kcAdminClient = new KcAdminClient({
-	baseUrl: "http://127.0.0.1:8080",
+	baseUrl: "http://10.3.0.12:8080/",
 	realmName: "master",
 });
 
