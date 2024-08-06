@@ -6,7 +6,7 @@ import Keycloak from "keycloak-js";
 // var KEYCLOAK_URL = "http://10.3.0.12/";
 // var REACT_URL = "http://10.3.0.12/react";
 
-var KEYCLOAK_URL = "http://10.3.0.12:8080/";
+var KEYCLOAK_URL = "";
 var REACT_URL = "http://localhost:3000";
 
 const client = new Keycloak({
